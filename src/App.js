@@ -1,5 +1,6 @@
 import React from 'react'
 import Sidebar from './components/sidebar'
+import Navbar from './components/navbar';
 
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
             </div>
           </div>
           <div className="col-lg-9 app__main-content">
-            main content
+            <Navbar/>
       </div>
         </div>
       </div>
